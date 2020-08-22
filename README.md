@@ -1,4 +1,4 @@
-# forge.tutorial.viewmodels.nodejs
+# forge.viewer.ssr
 
 [![Node.js](https://img.shields.io/badge/Node.js-4.4.3-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-2.15.1-blue.svg)](https://www.npmjs.com/)
@@ -12,7 +12,7 @@
 
 # Description
 
-This sample is part of the [Learn Forge](http://learnforge.autodesk.io) tutorials.
+Comparison between client side and server side rendering of forge viewer.
 
 # Setup
 
@@ -24,7 +24,7 @@ Install [NodeJS](https://nodejs.org).
 
 Clone this project or download it. It's recommended to install [GitHub Desktop](https://desktop.github.com/). To clone it via command line, use the following (**Terminal** on MacOSX/Linux, **Git Shell** on Windows):
 
-    git clone https://github.com/autodesk-forge/forge.learning.viewmodels.nodejs
+    git clone https://github.com/libvarun/forge-viewer-ssr
 
 To run it, install the required packages, set the enviroment variables with your client ID & Secret and finally start it. Via command line, navigate to the folder where this repository was cloned to and use the following commands:
 
@@ -73,4 +73,4 @@ Please see the [LICENSE](LICENSE) file for full details.
 
 ## Written by
 
-Augusto Goncalves [@augustomaia](https://twitter.com/augustomaia), [Forge Partner Development](http://forge.autodesk.com)
+Varun Patil [@varunpatil578](https://twitter.com/varunpatil578), [Forge Partner Development](http://forge.autodesk.com)
