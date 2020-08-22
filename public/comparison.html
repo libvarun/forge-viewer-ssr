@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Autodesk Forge Tutorial</title>
+  <meta charset="utf-8" />
+  <style type="text/css">
+    body{height: 100%;margin: 0;}
+    iframe{width: 100%;height: 100%;}
+    .iframe_container{width: 49%;display: inline-block;height: calc(100vh - 100px);margin-top: 20px;}   
+    .navbar{height: 48px;margin: 0;display: flex;align-items: center;justify-content: center;}   
+    .rendering_type{text-align: center;margin: 5px;font-size: 20px;color: red;}
+  </style>
+</head>
+<!-- <div class="navbar"><button>Reload</button></div> -->
+<body>       
+    <div class="iframe_container">
+        <p class="rendering_type">Server Side Rendering</p>
+        <iframe src="./ssr" title="description"></iframe>
+    </div>
+    <div class="iframe_container">
+        <p class="rendering_type">Client Side Rendering</p>
+        <iframe src="./index.html" title="description"></iframe>
+    </div>
+</body>
+
+</html>
